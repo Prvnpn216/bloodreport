@@ -40,6 +40,17 @@ require_once('menu.php');
             background-color: #4c4c4c !important;
             border-color: #4c4c4c !important;
         }
+        .btn-success {
+    background: #8A0303 !important;
+    border: 1px solid #8A0303 !important;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+    background: #8A0303 !important;
+}
     </style>
 </head>
 <body class="nav-md">    
