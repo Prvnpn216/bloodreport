@@ -32,7 +32,14 @@ require_once('menu.php');
         .nav.side-menu>li.current-page, .nav.side-menu>li.active{
             border-right: 5px solid #ffffff !important;
         }
+        .nav_title {
+            background: #4C4C4C !important; 
+        }
         
+        .btn-danger {
+            background-color: #4c4c4c !important;
+            border-color: #4c4c4c !important;
+        }
     </style>
 </head>
 <body class="nav-md">    
@@ -43,7 +50,7 @@ require_once('menu.php');
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view" >
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="/" class="site_title"><img src="/images/appicon.png" width="50px" height="50px" > <span style="font-size:18px;">   Blood Report</span></a>
+                    <a href="/" class="site_title"><img src="/images/pngegg.png" width="45px" height="45px" > <span style="font-size:18px;"> Blood Report</span></a>
                 </div>
                 <div class="clearfix"></div>
                 <!-- menu prile quick info -->

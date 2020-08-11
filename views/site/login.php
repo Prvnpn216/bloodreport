@@ -34,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
               <div class="clearfix"></div>
               <br />
               <div>
-                <h1><img src="/images/appicon.png" width="50px" height="50px">Blood Report</h1>
+                <h1><img src="/images/pngegg.png" width="50px" height="50px">Blood Report</h1>
                 <p>©<?=date('Y',time());?> All Rights Reserved. Privacy and Terms</p>
               </div>
             </div>
