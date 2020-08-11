@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\PatientReport */
 
-$this->title = $model->id;
+$this->title = $report->id;
 $this->params['breadcrumbs'][] = ['label' => 'Patient Reports', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?= DetailView::widget([
-        'model' => $model,
+        'model' => $report,
         'attributes' => [
             'id',
             'patient_id',

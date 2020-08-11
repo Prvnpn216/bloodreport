@@ -9,4 +9,5 @@ if(\Yii::$app->user->can('user/index'))
 {
     $menu[] = ["label" => "Patients", "url" => ["/mub-admin/users/patient"], "icon" => "users"];
     $menu[] = ["label" => "Reports", "url" => ["/mub-admin/users/report"], "icon" => "folder-open"];
+    $menu[] = ["label" => "Add Keyword", "url" => ["/mub-admin/users/addkeyword"], "icon" => "folder-open"];
 }

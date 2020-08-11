@@ -10,9 +10,11 @@ use yii\grid\GridView;
 $this->title = 'Patient Reports';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<div class="panel panel-default col-md-10 col-md-offset-1 col-sm-12"><!--pannel-->
+    <h3 class="panel-heading"><?= Html::encode($this->title) ?></h3>
 <div class="patient-report-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+ 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>

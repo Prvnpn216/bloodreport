@@ -15,15 +15,15 @@ use yii\widgets\ActiveForm;
         'method' => 'get',
     ]); ?>
 
-    <?= $form->field($model, 'id') ?>
+    <?= $form->field($report, 'id') ?>
 
-    <?= $form->field($model, 'patient_id') ?>
+    <?= $form->field($report, 'patient_id') ?>
 
-    <?= $form->field($model, 'lab_id') ?>
+    <?= $form->field($report, 'lab_id') ?>
 
-    <?= $form->field($model, 'mub_user_id') ?>
+    <?= $form->field($report, 'mub_user_id') ?>
 
-    <?= $form->field($model, 'haemoglobin') ?>
+    <?= $form->field($report, 'haemoglobin') ?>
 
     <?php // echo $form->field($model, 'total_leucocyte_count') ?>
 

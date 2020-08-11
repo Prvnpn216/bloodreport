@@ -19,13 +19,18 @@ require_once('menu.php');
     <?php $this->head() ?>
     <style>
         .left_col {
-                    background: #0153B1 !important;
+                    background: #8A0303 !important;
                      height: 100% !important;
-                     min-height: 100% !impor tant;
+                     min-height: 100% !important;
                      position: fixed;
                     }
         body{
             background-color: #F7F7F7 !important;
+            
+            
+        }
+        .nav.side-menu>li.current-page, .nav.side-menu>li.active{
+            border-right: 5px solid #ffffff !important;
         }
         
     </style>
@@ -38,7 +43,7 @@ require_once('menu.php');
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view" >
                 <div class="navbar nav_title" style="border: 0;">
-                    <a href="/" class="site_title"><img src="/images/appicon.png" width="50px" height="50px" > <span style="font-size:18px;">Gagan Pratap App</span></a>
+                    <a href="/" class="site_title"><img src="/images/appicon.png" width="50px" height="50px" > <span style="font-size:18px;">   Blood Report</span></a>
                 </div>
                 <div class="clearfix"></div>
                 <!-- menu prile quick info -->
