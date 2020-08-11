@@ -6,10 +6,13 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model app\models\PatientReport */
 /* @var $form yii\widgets\ActiveForm */
-?>
+?><div>
+ 
 
 <div class="patient-report-form">
-
+     <iframe src="/uploads/SANJEEVANI.PDF" style="height: 100%; width: 45%; position: fixed; margin-left: 43%;">
+ </iframe>
+    <div class="panel panel-default col-md-6 col-sm-6">
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($report, 'patient_id')->textInput() ?>
@@ -192,5 +195,6 @@ use yii\widgets\ActiveForm;
 
     <?php ActiveForm::end(); ?>
 
+</div>
 </div>
 </div>
