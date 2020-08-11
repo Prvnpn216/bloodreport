@@ -29,4 +29,10 @@ class ReportController extends MubController
     {
         return new PatientReportsSearch();
     }
+
+    public function actionConfirmReport(){
+        $report = new PatientReport();
+
+        return $this->render('mainform',['report' => $report]);
+    }
 }
