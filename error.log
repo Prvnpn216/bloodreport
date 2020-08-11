@@ -1,0 +1,6 @@
+[Sat Jun 13 00:21:10.789295 2020] [php7:error] [pid 4880:tid 2008] [client 127.0.0.1:58662] PHP Fatal error:  Cannot use [] for reading in C:\\xampp\\htdocs\\mub3\\modules\\MubAdmin\\modules\\gallery\\models\\GalleryProcess.php on line 32, referer: http://mub3.local/mub-admin/gallery
+[Sat Jun 13 11:42:04.474241 2020] [php7:error] [pid 4880:tid 2000] [client 127.0.0.1:60103] PHP Fatal error:  Cannot use [] for reading in C:\\xampp\\htdocs\\mub3\\modules\\MubAdmin\\modules\\gallery\\models\\GalleryProcess.php on line 32, referer: http://mub3.local/mub-admin/gallery
+[Thu Jul 02 16:54:31 2020] [error] (2)No such file or directory: could not open transfer log file /Application/MAMP/htdocs/DoubtsAppWeb/a.
+[Thu Jul 02 16:54:45 2020] [error] (2)No such file or directory: could not open transfer log file /Application/MAMP/htdocs/DoubtsAppWeb/a.
+[Thu Jul 02 16:58:57 2020] [error] (2)No such file or directory: could not open transfer log file /Application/MAMP/htdocs/DoubtsAppWeb/a.
+[Thu Jul 02 16:59:23 2020] [error] (2)No such file or directory: could not open transfer log file /Application/MAMP/htdocs/DoubtsAppWeb/a.
